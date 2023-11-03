@@ -19,5 +19,3 @@ Hi! This is Ruijie He. I'm a first year student in Biostatistics department on p
 
 * [Dashboard](dashboard.html): Data visualization of New York City restaurant inspection
 
-
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
