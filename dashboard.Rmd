@@ -1,0 +1,82 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+data(rest_inspec)
+```
+
+```{r}
+rest_inspec_df =
+  rest_inspec %>% 
+  select(boro, camis, cuisine_description, dba, inspection_date, score, street, zipcode, grade) %>% 
+  filter(
+    cuisine_description %in% c("Pizza"), 
+    grade %in% c("A", "B", "C"),
+  ) %>% 
+  drop_na()
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A: Boxplot of scores of restaurant in Manhattan
+
+The boxplot showing the score of restaurant in each borough.
+
+```{r}
+rest_boxplot =
+  rest_inspec_df %>% 
+  mutate(boro = fct_reorder(boro, score)) %>% 
+  plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis")
+
+ggplotly(rest_boxplot)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B: Scatterplot
+
+The scatterplot of restaurant inspection scores over time on Queens borough.
+
+```{r}
+rest_scatterplot =
+  rest_inspec_df %>% 
+  filter(
+    boro %in% c("QUEENS")
+  ) %>% 
+  mutate(text_label = str_c("Restaurant: ", dba, "\nGrade", grade)) %>%
+  plot_ly(x = ~inspection_date, y = ~score, type = "scatter", mode = "markers", color = ~grade, text = ~text_label, alpha = 0.8) %>% 
+  layout(title = "Scatter Plot of Restaurant Inspection Scores Over Time on Queens",
+         xaxis = list(title = "Inspection Date"),
+         yaxis = list(title = "Score"))
+
+ggplotly(rest_scatterplot)
+```
+
+### Chart C: Plotly bar chart
+
+```{r}
+rest_barplot =
+  rest_inspec_df %>% 
+  group_by(boro) %>% 
+  summarize(total_violence = n()) %>% 
+  mutate(boro = fct_reorder(boro, total_violence)) %>% 
+  plot_ly(x = ~boro, y = ~total_violence, type = "bar", color = "viridis", alpha = 0.8) %>% 
+  layout(title = "Total violence in each boro",
+         xaxis = list(title = "Boro"),
+         yaxis = list(title = "Total violence"))
+
+ggplotly(rest_barplot)
+```
+
