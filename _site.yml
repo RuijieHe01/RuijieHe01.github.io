@@ -13,4 +13,4 @@ navbar:
       href: https://www.linkedin.com/in/ruijiehe02092000
 output:
   html_document:
-    theme: cerulean
+    theme: cosmo
