@@ -1,0 +1,93 @@
+---
+title: "About me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+## Personal Information
+
+* **Name**: Ruijie He
+
+* **Contacts**: rh3195@cumc.columbia.edu
+
+* **Github**: https://github.com/RuijieHe01
+
+* **Linkedin**: https://www.linkedin.com/in/ruijiehe02092000
+
+## Academic Experience
+
+**Mailman School of Public Health at Columbia University** *(Sept. 2023 - Current)*
+
+- Degree: Master of Science
+
+- Department: Biostatistics, Public Health Data Science
+
+**Stony Brook University** *(Aug. 2018 - May 2023)*
+
+- Degree: Bachelor of Science
+
+- Major & Minor: Biology, Applied Mathematics & Statistics
+
+## Research Experience
+
+**Research on COVID Infection Influence on the Athletic Performance of Baseball Players** *(Sept. 2022 - May 2023)*
+
+- Research Team: Joe Rossiello (Research Lead), Anthony Szema
+
+**Project Details:**
+
+- Analyzed the individual performance of major league baseball players on one team before and after COVID infection during the 2021 season.
+
+- Utilized SPSS to conduct matched samples t-test on the representative indicators of players’ performance data and visualize the results for the analysis of the influence of COVID-19 on the performance of baseball players.
+
+- Created a poster to be presented at the American Thoracic Society International Conference, Washington DC, May 2023
+
+**Research on Response Mechanisms for Public Health Emergencies - COVID and SARS** *(Jul. 2022 - Mar. 2023)*
+
+- Professor: Linda Niccolai
+
+**Project Details:**
+
+- Reviewed the differences and changes in the entire emergency response system by comparing the measures taken during the SARS and COVID-19 outbreaks in China.
+
+- Conducted a literature review and specify the number of articles read.
+
+- Published by International Conference on Modern Medicine and Global Health
+
+## Leadership Experience
+
+### Teaching Assistant at Stony Brook University
+
+**Linear Algebra** *(Aug. 2022 - Dec. 2022)*
+
+- Conducted office hours to enhance students' comprehension of course materials by explaining textbook concepts and helping with formula derivations.
+
+- Instructed students in programming with Matlab and assisted them in resolving coding issues.
+
+- Consistently applied fair grading practices to evaluate students' work and assign appropriate letter or numerical grades.
+
+**Probability and Statistics for Life Sciences** *(Jun. 2022 - Aug. 2022)*
+
+- Held office hours and provided individualized and small group support to reinforce classroom topics, supporting students' learning.
+
+- Assisted in grading assignments and tests, documented results, and reported students' performance to the professor.
+
+- Conducted recitation sessions, including material generation, lesson plan development, class preparation, scheduling, exam distribution, and student mentoring.
+
+
+## Skills
+
+### Software Capabilities
+* R Studio, AWS, Github, Hackmd, Microsoft Office
+
+### Languages
+* Mandarin (Native), English (Fluent)
+
+### Interests
+* Dance, Photography, Taekwondo, Baking, Pilates, Chinese calligraphy
+
+Please <a href="./Ruijie He.CV.pdf" download="Ruijie He C.V.pdf">Download PDF</a> for complete resume.
+

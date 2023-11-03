@@ -1,0 +1,23 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Ruijie He's awesome website
+
+## Introduction
+
+Hi! This is Ruijie He. I'm a first year student in Biostatistics department on public health data science track. This is my personal website that has my academic and professional experience included.
+
+## Contents
+
+* [Resume](Resume.html): Personal Information
+
+* [Dashboard](dashboard.html): Data visualization of New York City restaurant inspection
+
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
