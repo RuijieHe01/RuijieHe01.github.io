@@ -69,6 +69,8 @@ ggplotly(rest_scatterplot)
 
 ### Chart C: Plotly bar chart
 
+The total violence cases in each borough is visualized in barplot.
+
 ```{r}
 rest_barplot =
   rest_inspec_df %>% 
