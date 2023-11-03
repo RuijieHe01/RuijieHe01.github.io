@@ -1,0 +1,16 @@
+name: "Ruijie He's website"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: index.html
+    - icon: fa-envelope fa-lg
+      href: mailto:rh3195@cumc.columbia.edu
+    - icon: fa-github fa-lg
+      href: http://github.com/RuijieHe01
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/ruijiehe02092000
+output:
+  html_document:
+    theme: cerulean
