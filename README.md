@@ -1,2 +1,2 @@
 The Website page link
-[Ruijie He's Website](file:///Users/ruijiehe/Desktop/RuijieHe01.github.io/dashboard.html)
+[Ruijie He's Website](http://RuijieHe01.github.io)
