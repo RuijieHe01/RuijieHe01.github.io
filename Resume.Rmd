@@ -88,5 +88,5 @@ output:
 ### Interests
 * Dance, Photography, Taekwondo, Baking, Pilates, Chinese calligraphy
 
-Please <a href="./Ruijie He.CV.pdf" download="Ruijie He C.V.pdf">Download PDF</a> for complete resume.
+Please [Download PDF](Ruijie He C.V.pdf) for complete resume.
 

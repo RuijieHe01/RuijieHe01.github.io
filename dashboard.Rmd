@@ -1,10 +1,12 @@
 ---
-title: "Untitled"
+title: "Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
 ---
+
+# Flexdashboard
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
@@ -15,6 +17,7 @@ data(rest_inspec)
 ```
 
 ```{r}
+# Select the sampled data from datasets
 rest_inspec_df =
   rest_inspec %>% 
   select(boro, camis, cuisine_description, dba, inspection_date, score, street, zipcode, grade) %>% 
@@ -80,3 +83,6 @@ rest_barplot =
 ggplotly(rest_barplot)
 ```
 
+# Home
+
+To go back to main page, please [Go Homepage](index.html)
